@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.percent{
+    position: absolute;
+    line-height: 100%;
+    font-size: 60px;  
+    left: 50%;
+}
+img{
+    width: 100%;
+}
